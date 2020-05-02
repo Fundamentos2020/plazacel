@@ -1,0 +1,35 @@
+{
+    "celulares_articulos":
+    [
+        {
+            "id": 1,
+            "name": "Laut - Funda / Case Shield para iPhone 11 - Negro",
+            "img": "https://pisces.bbystatic.com/image2/BestBuy_MX/images/products/1000/1000222876cv14a.jpg",
+            "precio":"499"
+        },
+        {
+            "id": 2,
+            "name": "ZAGG - Funda Crystal Palace para Samsung Galaxy S20 - Transparente",
+            "img": "https://pisces.bbystatic.com/image2/BestBuy_MX/images/products/1000/1000228323_sd.jpg",
+            "precio":"699"
+        },
+        {
+            "id": 3,
+            "name": "Survivor - Funda / Case Clear para iPhone 11 - Transparente",
+            "img": "https://pisces.bbystatic.com/image2/BestBuy_MX/images/products/1000/1000223103_sd.jpg",
+            "precio":"479"
+        },
+        {
+            "id": 4,
+            "name": "Survivor - Funda / Case Clear para iPhone 11 Pro - Negro",
+            "img": "https://pisces.bbystatic.com/image2/BestBuy_MX/images/products/1000/1000223090_sd.jpg",
+            "precio":"479"
+        },
+        {
+            "id": 5,
+            "name": "Samsung - Funda Silicon Cover para Samsung Galaxy S20 - Azul",
+            "img": "https://pisces.bbystatic.com/image2/BestBuy_MX/images/products/1000/1000227341_sd.jpg",
+            "precio":"599"
+        }
+    ]
+}
