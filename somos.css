@@ -1,0 +1,22 @@
+*{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+
+h2{
+    color:black;
+    font-size: 20px;
+}
+
+
+.informacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: relative;
+    height: relative;
+    margin:20px;
+    padding: 10px;
+}
