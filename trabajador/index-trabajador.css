@@ -1,0 +1,122 @@
+
+button{
+    padding:15px;
+    font-size: 25px;
+    background-color:rgba(79, 94, 89, 0.795);
+    color:white;
+}
+
+main{
+    display: flex;
+    width: 100%;
+    height: relative;
+    flex-direction: column;
+    
+}
+
+.sale,.recomendado{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    margin-bottom: 40px;
+    height:relative;
+
+}
+
+
+.ofertas,.recomendaciones{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 15px;
+    
+}
+
+.ofertas img{
+    width: 145px;
+    height: 145px;
+    margin: 0px;
+}
+
+.ofertas button{
+    background-color:black ;
+    border-radius: 20px;
+    width: 130px;
+    height: 65px;
+}
+
+.oferta1,.oferta2,.oferta3,.oferta4,.recomendacion1,.recomendacion2,.recomendacion3,.recomendacion4{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    border:1px solid black;
+    border-radius: 15px;
+}
+
+.oferta2 #precionormal,.oferta2 #comprar{
+    padding-top:18px;
+}
+
+.oferta1 div,.oferta2 div,.oferta3 div,.oferta4 div{
+    padding-top:6px;
+    padding-bottom: 6px;
+    padding-left:20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.oferta1 #precionormal,.oferta2 #precionormal,.oferta3 #precionormal,.oferta4 #precionormal{
+    font-size: 20px;
+    text-decoration: line-through;
+}
+
+.oferta1 #preciodesc,.oferta2 #preciodesc,.oferta3 #preciodesc,.oferta4 #preciodesc{
+    color: red;
+}
+
+.recomendaciones img{
+    width: 145px;
+    height: 145px;
+    margin: 0px;
+}
+
+.recomendaciones button{
+    background-color:black ;
+    border-radius: 20px;
+    width: 130px;
+    height: 65px;
+}
+
+.recomendacion1 div,.recomendacion2 div,.recomendacion3 div,.recomendacion4 div{
+    padding-top:9px;
+    padding-bottom: 9px;
+    padding-left:20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nuevos{
+    display: flex;
+    flex-direction: column;
+    height:relative;
+}
+
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+
+

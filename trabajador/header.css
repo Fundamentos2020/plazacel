@@ -1,0 +1,205 @@
+header{
+    display:flex;
+    flex-direction: column;
+    height:relative;
+    width: 100%;
+    background-image: url("../assets/yellow.jpg") ;
+    background-size: cover;
+    overflow: hidden;
+    margin: 0px;
+
+    
+}
+.encabezado{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    margin:0px;
+    
+}
+
+#logo{
+    
+    height: 100px;
+    line-height: normal;
+    margin:0px;
+
+}
+
+#slogan{
+    font-size: 25px;
+    width: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #FFFFFA;
+    text-align: center;
+    padding:5px 20px;
+    line-height: normal;
+    margin:0px;
+
+
+}
+
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #e3b04b;
+    text-align: center;
+    width: auto;
+    /*line-height:110px;*/
+    line-height: normal;
+    margin:0px;
+
+
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    width: relative;
+}
+
+
+.menu {
+    width: 50%;
+    flex:1 1 auto;
+}
+
+.menu ul{
+    margin:0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+#btn-menu{
+    display:none;
+
+}
+
+nav label{
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+}
+
+nav label:hover{
+    cursor:pointer;
+    background: rgba(0,0,0,.3);
+}
+
+.menu li{
+    display: block;
+    padding: 10px 20px;
+    height: 30px;
+    justify-items: center;
+}
+
+.menu li:hover{
+    background-color: rgba(0,0,0,.3);
+    cursor:pointer;
+}
+
+.buscar{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+
+}
+
+
+.cajausuario{
+    padding:10px;
+    height: 30px;
+}
+
+.cajausuario:hover{
+    background-color: rgba(0,0,0,.3);
+    cursor:pointer;
+}
+
+.cajacarrito{
+    padding:10px;
+    height: 30px;
+}
+
+.cajacarrito ul{
+    list-style: none;
+}
+
+nav li ul{
+    display:none;
+    position:absolute;
+    min-width: 140px;
+}
+
+nav li:hover>ul{
+    display:block;
+}
+
+.cajacarrito:hover{
+    background-color: rgba(0,0,0,.3);
+    cursor:pointer;
+}
+
+
+#sesion{
+    width: 30px;
+    height: 30px;
+}
+
+#carrito{
+    width: 30px;
+    height: 30px;
+}
+nav a{
+
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+}
+
+
+@media (max-width: 810px)
+{
+    nav label{
+        display:block;
+    }
+
+    .menu{
+        position:fixed;
+        left: 0;
+        top:9%;
+        background-color: lightslategray;
+        width: 60%;
+        margin-left:-60%;
+        transition: 0.5s;
+        z-index: 10;
+        
+    }
+
+    .menu ul{
+        flex-direction: column;
+        flex-grow: 1;
+    }
+
+    .buscar{
+        width: 80%;
+    }
+
+    #btn-menu:checked ~ .menu{
+        margin:45px;
+
+    }
+
+
+}
+
+
