@@ -1,0 +1,64 @@
+
+.lista div,p{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main{
+    
+    height:relative;
+    width: 100%;
+    overflow: hidden;
+    margin: 0px;
+
+    
+}
+
+table{
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: auto;
+    height: relative;
+    
+}
+
+table td{
+    width: auto;
+}
+
+.lista
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height:relative;
+    width: relative;
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+}
+
+main h2{
+    color:black ;
+    border-bottom: 2px solid black;
+    width: 100%;
+    padding: 5px;
+}
+
+
+thead{
+    background-color: gray;
+    color: black;
+}
+
+#addtraba{
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    size:20px;
+    border-radius: 8px;
+}
+
+
+tr:nth-child(even){
+background-color: transparent;
+}
